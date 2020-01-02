@@ -1,0 +1,19 @@
+
+.login {
+  width: 340px;
+  margin: 0 auto;
+
+  & :global {
+    .ant-form-item {
+      margin-bottom: 26px;
+    }
+
+    .ant-form-item-with-help {
+      margin-bottom: 5px;
+    }
+
+    .ant-form-explain {
+      padding-top: 3px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+@import "styles/variable.css";
+
+.user-nav {
+  float: right;
+  height: 100%;
+  padding-right: 25px;
+  line-height: calc(var(--header-height) - 2px);
+}
+
+.bell {
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.name {
+  margin-left: 10px;
+}
+
+.nav-item {
+  display: inline-block;
+  height: 100%;
+  padding: 0 12px;
+  cursor: pointer;
+  transition: background-color .3s ease;
+
+  &:hover {
+    background-color: rgba(0, 0, 0, 0.03);
+  }
+}
+
+.notices {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.notice-item {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.notice-title {
+  font-weight: normal;
+}

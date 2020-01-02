@@ -1,0 +1,6 @@
+
+:global {
+  html, body, #app {
+    height: 100%;
+  }
+}
